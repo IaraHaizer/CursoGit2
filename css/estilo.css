@@ -1,0 +1,174 @@
+* {
+    text-align: center;
+    background: #02070f;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+.img-logo{
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+
+/* Colocando uma imagem no fundo com efeito Parallax*/
+.cabecalho {
+    background-image: url(/imagens/criar.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(181, 171, 211);
+    padding-top: 300px;
+    padding-bottom: 300px;
+    font-size: 20px;
+
+}
+
+.cabecalho .texto-central{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.img-site {
+    background-image: url(/imagens/estrelas.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+    padding-top: 300px;
+}
+
+div.coluna-4 {
+    width: 400px;
+    display: inline-block;
+}
+
+/* Colocando efeito de digitação no h3 */
+.titulo3 {
+    color: rgb(94, 86, 209);
+    background: #333;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: 'Times New Roman';
+    letter-spacing: .15em;
+    overflow: hidden;
+    border-right: .15em solid rgb(54, 207, 200);
+    white-space: nowrap;
+    margin: 0 auto;
+    animation:
+        typing 5s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: white
+    }
+}
+
+.texto-central {
+    color: rgb(164, 170, 221);
+    font-size: larger;
+}
+
+.coluna-4 .img {
+    border: 2px white;
+    width: 300px;
+    height: 400px;
+}
+
+.profissionais{
+    background-image: url(/imagens/computador.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(164, 170, 221);
+    padding-top: 400px;
+    padding-bottom: 400px;
+    font-size: larger;
+
+}
+
+.fileira-apresenta{
+    padding-top: 50px;
+}
+
+.fileira-apresenta .texto-central{
+    font-size: 40px;
+}
+
+.apresenta .foto{
+    width: 300px;
+    display: inline-block;
+    text-align: justify;
+    border-radius: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.apresenta .link{
+    
+    color: rgb(94, 86, 209);
+    background: #333;
+    display: flex;
+    justify-content: center;
+    color: rgb(11, 34, 241);
+    font-family: 'Times New Roman';
+    letter-spacing: .15em;
+    overflow: hidden;
+    border-right: .50em solid rgb(54, 207, 200);
+    white-space: nowrap;
+    margin: 10px;
+    animation:
+        typing 3.5s steps(30, end)
+
+}
+.nome{
+    font-size: 25px;
+    color: rgb(164, 170, 221);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: #0f12b8;
+}
+
+ul li{
+    list-style: none;
+}
+
+.rodape-site {
+    background-color: #2a2342;
+    color: rgb(164, 170, 221);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer{
+    color: rgb(164, 170, 221);
+}
+
