@@ -1,0 +1,15 @@
+*{
+    text-align: center;
+    background-color: rgb(161, 168, 207);
+  }
+  .container{
+  background-color: rgb(143, 143, 196);
+  
+  }
+.inicial{
+    text-decoration: none;
+    font-size: 20px ;
+}
+.foto{
+    border-radius: 50%;
+}
