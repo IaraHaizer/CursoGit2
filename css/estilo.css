@@ -6,14 +6,14 @@
 }
 
 .img-logo{
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding-top: 80px;
+    padding-bottom: 100px;
 }
 
 
 /* Colocando uma imagem no fundo com efeito Parallax*/
 .cabecalho {
-    background-image: url(/imagens/criar.jpg);
+    background-image: url(/imagens/estrelas.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,14 +38,22 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: whitesmoke;
+    color: rgb(181, 171, 211);
     padding-top: 300px;
+    padding-bottom: 300px;
+    font-size: 20px;
 }
 
-div.coluna-4 {
-    width: 400px;
+div .coluna-4 {
+    width: 300px;
     display: inline-block;
 }
+
+.coluna-4 .img {
+    width: 300px;
+    height: 300px;
+}
+
 
 /* Colocando efeito de digitação no h3 */
 .titulo3 {
@@ -93,12 +101,6 @@ div.coluna-4 {
     font-size: larger;
 }
 
-.coluna-4 .img {
-    border: 2px white;
-    width: 300px;
-    height: 400px;
-}
-
 .profissionais{
     background-image: url(/imagens/computador.jpg);
     background-position: center top;
@@ -114,6 +116,12 @@ div.coluna-4 {
 
 .fileira-apresenta{
     padding-top: 50px;
+}
+
+.apresenta{
+    width: 300;
+    display: inline-block;
+    padding-top: 10px;
 }
 
 .fileira-apresenta .texto-central{
@@ -159,6 +167,15 @@ ul li a{
 
 ul li{
     list-style: none;
+}
+
+.img-site{
+    padding-top: 60px;
+}
+
+.minilogo{
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .rodape-site {
